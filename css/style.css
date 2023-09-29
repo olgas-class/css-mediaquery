@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Partenza, base */
+/* DESKTOP FIRST */
+
+/* .container {
+    width: 60%;
+    margin: 0 auto;
+    height: 400px;
+    background-color: lightblue;
+} */
+
+/* Breakpoints */
+/* @media screen and (max-width: 768px) {
+    .container {
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 95%;
+        background-color: lightcoral;
+    }
+} */
+
+/* MOBILE FIRST */
+.container {
+  width: 95%;
+  margin: 0 auto;
+  height: 400px;
+  background-color: lightcoral;
+}
+
+@media screen and (min-width: 376px) {
+  .container {
+    width: 60%;
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    background-color: lightblue;
+  }
+}
+
+/* Quasi mai si usa */
+/* @media screen and (min-width: 376px) and (max-width: 768px) {
+  .container {
+    width: 60%;
+  }
+} */
