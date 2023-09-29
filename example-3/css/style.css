@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  border: 1px solid black;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+}
+
+@media screen and (max-width: 480px) {
+  .box {
+    border-radius: 50%;
+  }
+}

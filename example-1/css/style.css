@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* MOBILE FIRST */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  margin: 0.5rem;
+}
+
+@media screen and (min-width: 479px) {
+  .container {
+    display: flex;
+  }
+
+  .box {
+    background-color: fuchsia;
+  }
+}

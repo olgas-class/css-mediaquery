@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  border: 1px solid black;
+}
+
+/* DESKTOP FIRST */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 780px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  img {
+    width: calc(100% / 3);
+  }
+}
+
+@media screen and (max-width: 568px) {
+  img {
+    width: 80%;
+  }
+}
